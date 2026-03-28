@@ -1,0 +1,11 @@
+Exemplo prático para Projetos em Java: Crie um arquivo chamado exatamente .gitignore na raiz do seu projeto e adicione o seguinte conteúdo:
+# Ignorar arquivos compilados do Java
+*.class
+# Ignorar pastas geradas por IDEs (VS Code, IntelliJ, Eclipse)
+.vscode/
+.idea/
+*.iml
+.metadata/
+# Ignorar pastas de build e dependências locais
+bin/
+target/
